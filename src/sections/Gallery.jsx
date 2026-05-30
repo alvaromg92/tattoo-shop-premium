@@ -7,7 +7,7 @@ const tattooImages = [
 
 function Gallery() {
   return (
-  <section className="gallery">
+  <section id="gallery" className="gallery">
     <h2>Featured Work</h2>
 
     <div className="gallery-grid">

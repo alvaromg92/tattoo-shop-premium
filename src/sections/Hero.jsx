@@ -30,13 +30,17 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <button className="primary-btn">
-            Book Appointment
-          </button>
-
-          <button className="secondary-btn">
+          <a href="#contact">
+            <button className="primary-btn">
+              Book Appointment
+            </button>
+          </a>
+          <a
+            href="#gallery"
+            className="secondary-btn"
+       >
             View Portfolio
-          </button>
+          </a>
         </div>
       </div>
     </section>

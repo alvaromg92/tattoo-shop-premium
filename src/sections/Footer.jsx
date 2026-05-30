@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
       <div className="footer-brand">
         <h2>INK STUDIO</h2>
         <p>Premium tattoos crafted with precision and style.</p>
