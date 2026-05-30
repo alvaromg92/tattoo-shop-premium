@@ -115,6 +115,8 @@
 .primary-btn,
 .secondary-btn {
   transition: 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .primary-btn:hover {
@@ -153,4 +155,5 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
 }  

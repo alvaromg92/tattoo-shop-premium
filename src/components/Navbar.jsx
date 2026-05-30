@@ -8,16 +8,15 @@ function Navbar() {
       </div>
 
       <ul className="nav-links">
-        <li>Home</li>
-        <li>Styles</li>
-        <li>Gallery</li>
-        <li>Artists</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#styles">Styles</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-
-      <button className="cta-button">
+      <a href="#contact" className="cta-button">
         Book Now
-      </button>
+      </a>
     </nav>
   )
 }

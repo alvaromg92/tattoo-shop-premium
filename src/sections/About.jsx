@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about-left">
         <h2>Why Choose Ink Studio</h2>
         <p>

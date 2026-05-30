@@ -22,7 +22,7 @@ const tattooStyles = [
 
 function Styles() {
   return (
-  <section className="styles">
+  <section className="styles" id="styles">
     <h2>Our Tattoo Styles</h2>
 
     <div className="styles-container">

@@ -3,7 +3,7 @@ import heroImage from '../assets/tattoo-hero.jpg'
 function Hero() {
   return (
     <section
-  className="hero"
+  className="hero" id="home"
   style={{
     backgroundImage: `
       linear-gradient(
@@ -35,11 +35,8 @@ function Hero() {
               Book Appointment
             </button>
           </a>
-          <a
-            href="#gallery"
-            className="secondary-btn"
-       >
-            View Portfolio
+          <a href="#gallery" className="secondary-btn">
+           View Portfolio
           </a>
         </div>
       </div>
